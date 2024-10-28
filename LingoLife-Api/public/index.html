@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fórum de Idiomas</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Adicione seu CSS aqui -->
+</head>
+<body>
+    <h1>Postagens no Fórum</h1>
+
+    <!-- Formulário para criar uma postagem -->
+    <form id="postForm">
+        <input type="text" id="title" placeholder="Título" required>
+        <textarea id="content" placeholder="Conteúdo" required></textarea>
+        <input type="file" id="file">
+        <button type="submit">Enviar</button>
+    </form>
+
+    <!-- Lista de postagens -->
+    <div id="postsContainer"></div>
+
+    <script src="js/main.js"></script> <!-- Arquivo JavaScript para interagir com sua API -->
+</body>
+</html>
